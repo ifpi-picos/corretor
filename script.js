@@ -7,15 +7,16 @@ form.addEventListener("submit", e => {
     }).then(
         response => response.json()
     ).then((html) => {
-        alert("success")
         resetarDados()
     });
 });
 
 const txtC = document.getElementById('txtCerto')
 const txtE = document.getElementById('txtErrado')
+const selec = document.getElementById('selec')
 
 function resetarDados() {
     txtC.value = '';
     txtE.value = '';
+    selec.value = '';
 }
