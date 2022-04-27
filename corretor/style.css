@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    font-family: 'lobster';
+    text-align: center;
+
+    
+}
+.header {
+    background-color: red;
+    margin-top: 0;
+    padding: 2px 2px 2px 4px;
+}
+
+
+
